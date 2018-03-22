@@ -1,0 +1,61 @@
+##KUSTOMCLIP##
+{
+  "clip_version": 1,
+  "clip_cut": [],
+  "clip_modules": [
+    {
+      "internal_type": "ProgressModule",
+      "internal_title": "Muviz17",
+      "internal_toggles": {
+        "position_offset_x": 10,
+        "style_size": 10,
+        "color_fgcolor": 100,
+        "progress_progress": 0,
+        "progress_max": 0,
+        "progress_level": 10,
+        "progress_count": 10
+      },
+      "internal_formulas": {
+        "position_offset_x": "$gv(textmarg)+(686/159*8*(17-1))$",
+        "style_size": "$686/159*7$",
+        "progress_level": "$mu(min,100,mu(max,0,(mi(pos)-(8*(17-1)*(mi(len)/159)))/(7*(mi(len)/159))*100))$",
+        "progress_count": "$mu(ceil,mi(len)/159*7)$"
+      },
+      "internal_globals": {
+        "color_fgcolor": "blue"
+      },
+      "position_anchor": "BOTTOMLEFT",
+      "position_offset_y": 1075.0,
+      "progress_progress": "CUSTOM",
+      "progress_level": 71.0,
+      "progress_count": 20.0,
+      "style_height": 105.0,
+      "color_bgcolor": "#FFFFFFFF",
+      "internal_animations": [
+        {
+          "type": "FORMULA",
+          "formula": "$if(br(tasker,launch)\u003d1,f,r)$",
+          "action": "ADVANCED",
+          "duration": 3.0,
+          "delay": 12.0,
+          "animator": [
+            {
+              "position": 0,
+              "value": 0.0,
+              "property": "SCALE_Y",
+              "ease": "NORMAL"
+            },
+            {
+              "position": 100,
+              "value": 0.0500,
+              "property": "SCALE_Y",
+              "ease": "NORMAL"
+            }
+          ],
+          "anchor": "MODULE_BOTTOM_LEFT"
+        }
+      ]
+    }
+  ]
+}
+##KUSTOMCLIP##

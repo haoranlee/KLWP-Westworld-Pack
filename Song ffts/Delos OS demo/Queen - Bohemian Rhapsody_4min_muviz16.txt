@@ -1,0 +1,3721 @@
+##KUSTOMCLIP##
+{
+  "clip_version": 1,
+  "clip_cut": [],
+  "clip_modules": [
+    {
+      "internal_type": "ProgressModule",
+      "internal_title": "Muviz16",
+      "internal_toggles": {
+        "position_offset_x": 10,
+        "style_size": 10,
+        "color_fgcolor": 100,
+        "progress_progress": 0,
+        "progress_max": 0,
+        "progress_level": 10,
+        "progress_count": 10
+      },
+      "internal_formulas": {
+        "position_offset_x": "$gv(textmarg)+(686/159*8*(16-1))$",
+        "style_size": "$686/159*7$",
+        "progress_level": "$mu(min,100,mu(max,0,(mi(pos)-(8*(16-1)*(mi(len)/159)))/(7*(mi(len)/159))*100))$",
+        "progress_count": "$mu(ceil,mi(len)/159*7)$"
+      },
+      "internal_globals": {
+        "color_fgcolor": "blue"
+      },
+      "position_anchor": "BOTTOMLEFT",
+      "position_offset_y": 1075.0,
+      "progress_progress": "CUSTOM",
+      "progress_level": 71.0,
+      "progress_count": 20.0,
+      "style_height": 105.0,
+      "color_bgcolor": "#FFFFFFFF",
+      "internal_animations": [
+        {
+          "type": "FORMULA",
+          "formula": "$if(br(tasker,launch)\u003d1,f,r)$",
+          "action": "ADVANCED",
+          "duration": 3.0,
+          "delay": 12.0,
+          "animator": [
+            {
+              "position": 0,
+              "value": 0.0,
+              "property": "SCALE_Y",
+              "ease": "NORMAL"
+            },
+            {
+              "position": 100,
+              "value": 0.6651639344262296,
+              "property": "SCALE_Y",
+              "ease": "NORMAL"
+            }
+          ],
+          "anchor": "MODULE_BOTTOM_LEFT"
+        },
+        {
+          "type": "FORMULA",
+          "formula": "$if(mi(state)\u003dPLAYING\u0026tf(mi(pos),ss)\u003e\u003d0\u0026tf(mi(pos),ss)\u003c10,f,r)$",
+          "action": "ADVANCED",
+          "ease": "STRAIGHT",
+          "duration": 100.0,
+          "animator": [
+            {
+              "position": 1,
+              "value": 0.12215189873417721,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 2,
+              "value": 0.4167721518987341,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 3,
+              "value": 0.36867088607594933,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 4,
+              "value": 0.44082278481012654,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 5,
+              "value": 0.40474683544303797,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 6,
+              "value": 0.42278481012658226,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 7,
+              "value": 0.5430379746835443,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 8,
+              "value": 0.45284810126582276,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 9,
+              "value": 0.5129746835443038,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 10,
+              "value": 0.5189873417721519,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 11,
+              "value": 0.44082278481012654,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 12,
+              "value": 0.24841772151898733,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 13,
+              "value": 0.1582278481012658,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 14,
+              "value": 0.42278481012658226,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 15,
+              "value": 0.27246835443037976,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 16,
+              "value": 0.36265822784810126,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 17,
+              "value": 0.26044303797468354,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 18,
+              "value": 0.3566455696202531,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 19,
+              "value": 0.2243670886075949,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 20,
+              "value": 0.36265822784810126,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 21,
+              "value": 0.2544303797468354,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 22,
+              "value": 0.20632911392405062,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 23,
+              "value": 0.1822784810126582,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 24,
+              "value": 0.26044303797468354,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 25,
+              "value": 0.2965189873417721,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 26,
+              "value": 0.43481012658227847,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 27,
+              "value": 0.5731012658227848,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 28,
+              "value": 0.49493670886075947,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 29,
+              "value": 0.6151898734177216,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 30,
+              "value": 0.3867088607594936,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 31,
+              "value": 0.525,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 32,
+              "value": 0.5430379746835443,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 33,
+              "value": 0.3566455696202531,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 34,
+              "value": 0.5490506329113923,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 35,
+              "value": 0.5189873417721519,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 36,
+              "value": 0.32056962025316454,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 37,
+              "value": 0.0920886075949367,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 38,
+              "value": 0.27246835443037976,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 39,
+              "value": 0.5550632911392406,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 40,
+              "value": 0.5069620253164557,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 41,
+              "value": 0.36867088607594933,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 42,
+              "value": 0.5430379746835443,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 43,
+              "value": 0.37468354430379747,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 44,
+              "value": 0.1822784810126582,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 45,
+              "value": 0.2243670886075949,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 46,
+              "value": 0.48892405063291133,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 47,
+              "value": 0.27848101265822783,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 48,
+              "value": 0.2664556962025316,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 49,
+              "value": 0.48892405063291133,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 50,
+              "value": 0.6873417721518987,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 51,
+              "value": 0.5911392405063292,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 52,
+              "value": 0.42879746835443033,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 53,
+              "value": 0.33259493670886076,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 54,
+              "value": 0.585126582278481,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 55,
+              "value": 0.45284810126582276,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 56,
+              "value": 0.30253164556962026,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 57,
+              "value": 0.27848101265822783,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 58,
+              "value": 0.45886075949367083,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 59,
+              "value": 0.39272151898734176,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 60,
+              "value": 0.5189873417721519,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 61,
+              "value": 0.3566455696202531,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 62,
+              "value": 0.36265822784810126,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 63,
+              "value": 0.2844936708860759,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 64,
+              "value": 0.40474683544303797,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 65,
+              "value": 0.39272151898734176,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 66,
+              "value": 0.2965189873417721,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 67,
+              "value": 0.20632911392405062,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 68,
+              "value": 0.11012658227848102,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 69,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 70,
+              "value": 0.27848101265822783,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 71,
+              "value": 0.36265822784810126,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 72,
+              "value": 0.5129746835443038,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 73,
+              "value": 0.5009493670886076,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 74,
+              "value": 0.3446202531645569,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 75,
+              "value": 0.36867088607594933,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 76,
+              "value": 0.3446202531645569,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 77,
+              "value": 0.39873417721518983,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 78,
+              "value": 0.39272151898734176,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 79,
+              "value": 0.33259493670886076,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 80,
+              "value": 0.42879746835443033,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 81,
+              "value": 0.39873417721518983,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 82,
+              "value": 0.3145569620253164,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 83,
+              "value": 0.35063291139240504,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 84,
+              "value": 0.27848101265822783,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 85,
+              "value": 0.0560126582278481,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 86,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 87,
+              "value": 0.4167721518987341,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 88,
+              "value": 0.525,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 89,
+              "value": 0.4468354430379746,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 90,
+              "value": 0.27246835443037976,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 91,
+              "value": 0.0560126582278481,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 92,
+              "value": 0.3566455696202531,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 93,
+              "value": 0.2544303797468354,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 94,
+              "value": 0.4829113924050632,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 95,
+              "value": 0.38069620253164554,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 96,
+              "value": 0.45886075949367083,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 97,
+              "value": 0.42879746835443033,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 98,
+              "value": 0.32056962025316454,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 99,
+              "value": 0.33860759493670883,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 100,
+              "value": 0.3265822784810126,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            }
+          ],
+          "anchor": "MODULE_BOTTOM_LEFT"
+        },
+        {
+          "type": "FORMULA",
+          "formula": "$if(mi(state)\u003dPLAYING\u0026tf(mi(pos),ss)\u003e\u003d10\u0026tf(mi(pos),ss)\u003c20,f,r)$",
+          "action": "ADVANCED",
+          "ease": "STRAIGHT",
+          "duration": 100.0,
+          "animator": [
+            {
+              "position": 1,
+              "value": 0.3566455696202531,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 2,
+              "value": 0.37468354430379747,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 3,
+              "value": 0.3265822784810126,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 4,
+              "value": 0.3867088607594936,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 5,
+              "value": 0.3566455696202531,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 6,
+              "value": 0.4829113924050632,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 7,
+              "value": 0.45284810126582276,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 8,
+              "value": 0.36867088607594933,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 9,
+              "value": 0.42879746835443033,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 10,
+              "value": 0.5310126582278482,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 11,
+              "value": 0.4768987341772152,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 12,
+              "value": 0.41075949367088604,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 13,
+              "value": 0.5490506329113923,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 14,
+              "value": 0.5490506329113923,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 15,
+              "value": 0.585126582278481,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 16,
+              "value": 0.5971518987341773,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 17,
+              "value": 0.6693037974683544,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 18,
+              "value": 0.5971518987341773,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 19,
+              "value": 0.6512658227848102,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 20,
+              "value": 0.5971518987341773,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 21,
+              "value": 0.46487341772151897,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 22,
+              "value": 0.5971518987341773,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 23,
+              "value": 0.6151898734177216,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 24,
+              "value": 0.4829113924050632,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 25,
+              "value": 0.3867088607594936,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 26,
+              "value": 0.33259493670886076,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 27,
+              "value": 0.5189873417721519,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 28,
+              "value": 0.6212025316455697,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 29,
+              "value": 0.49493670886075947,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 30,
+              "value": 0.525,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 31,
+              "value": 0.8015822784810127,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 32,
+              "value": 0.7474683544303797,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 33,
+              "value": 0.699367088607595,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 34,
+              "value": 0.5971518987341773,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 35,
+              "value": 0.5791139240506329,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 36,
+              "value": 0.7955696202531646,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 37,
+              "value": 0.6753164556962026,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 38,
+              "value": 0.5911392405063292,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 39,
+              "value": 0.5129746835443038,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 40,
+              "value": 0.7534810126582279,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 41,
+              "value": 0.7113924050632912,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 42,
+              "value": 0.6873417721518987,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 43,
+              "value": 0.4829113924050632,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 44,
+              "value": 0.5911392405063292,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 45,
+              "value": 0.7113924050632912,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 46,
+              "value": 0.699367088607595,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 47,
+              "value": 0.6212025316455697,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 48,
+              "value": 0.6091772151898734,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 49,
+              "value": 0.7174050632911392,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 50,
+              "value": 0.6332278481012659,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 51,
+              "value": 0.585126582278481,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 52,
+              "value": 0.4768987341772152,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 53,
+              "value": 0.7174050632911392,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 54,
+              "value": 0.8376582278481013,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 55,
+              "value": 0.705379746835443,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 56,
+              "value": 0.49493670886075947,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 57,
+              "value": 0.645253164556962,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 58,
+              "value": 0.7895569620253164,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 59,
+              "value": 0.7234177215189873,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 60,
+              "value": 0.525,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 61,
+              "value": 0.4468354430379746,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 62,
+              "value": 0.5310126582278482,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 63,
+              "value": 0.6873417721518987,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 64,
+              "value": 0.5791139240506329,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 65,
+              "value": 0.45886075949367083,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 66,
+              "value": 0.7715189873417722,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 67,
+              "value": 0.7414556962025317,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 68,
+              "value": 0.7294303797468354,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 69,
+              "value": 0.645253164556962,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 70,
+              "value": 0.6873417721518987,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 71,
+              "value": 0.879746835443038,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 72,
+              "value": 0.8075949367088607,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 73,
+              "value": 0.705379746835443,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 74,
+              "value": 0.48892405063291133,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 75,
+              "value": 0.6332278481012659,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 76,
+              "value": 0.6212025316455697,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 77,
+              "value": 0.5069620253164557,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 78,
+              "value": 0.45284810126582276,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 79,
+              "value": 0.7474683544303797,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 80,
+              "value": 0.8136075949367089,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 81,
+              "value": 0.7715189873417722,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 82,
+              "value": 0.6632911392405063,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 83,
+              "value": 0.759493670886076,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 84,
+              "value": 0.7534810126582279,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 85,
+              "value": 0.765506329113924,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 86,
+              "value": 0.6212025316455697,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 87,
+              "value": 0.5670886075949367,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 88,
+              "value": 0.705379746835443,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 89,
+              "value": 0.7775316455696202,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 90,
+              "value": 0.765506329113924,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 91,
+              "value": 0.6151898734177216,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 92,
+              "value": 0.7294303797468354,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 93,
+              "value": 0.7895569620253164,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 94,
+              "value": 0.765506329113924,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 95,
+              "value": 0.6031645569620253,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 96,
+              "value": 0.6572784810126582,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 97,
+              "value": 0.6632911392405063,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 98,
+              "value": 0.9158227848101265,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 99,
+              "value": 0.9278481012658227,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 100,
+              "value": 0.7174050632911392,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            }
+          ],
+          "anchor": "MODULE_BOTTOM_LEFT"
+        },
+        {
+          "type": "FORMULA",
+          "formula": "$if(mi(state)\u003dPLAYING\u0026tf(mi(pos),ss)\u003e\u003d20\u0026tf(mi(pos),ss)\u003c30,f,r)$",
+          "action": "ADVANCED",
+          "ease": "STRAIGHT",
+          "duration": 100.0,
+          "animator": [
+            {
+              "position": 1,
+              "value": 0.7715189873417722,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 2,
+              "value": 0.7775316455696202,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 3,
+              "value": 0.6933544303797469,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 4,
+              "value": 0.5550632911392406,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 5,
+              "value": 0.7955696202531646,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 6,
+              "value": 0.7534810126582279,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 7,
+              "value": 0.7234177215189873,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 8,
+              "value": 0.7234177215189873,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 9,
+              "value": 0.7895569620253164,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 10,
+              "value": 0.759493670886076,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 11,
+              "value": 0.765506329113924,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 12,
+              "value": 0.9579113924050633,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 13,
+              "value": 0.8496835443037974,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 14,
+              "value": 0.819620253164557,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 15,
+              "value": 0.8617088607594937,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 16,
+              "value": 0.7174050632911392,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 17,
+              "value": 0.5189873417721519,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 18,
+              "value": 0.7775316455696202,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 19,
+              "value": 0.7775316455696202,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 20,
+              "value": 0.8677215189873417,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 21,
+              "value": 0.8075949367088607,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 22,
+              "value": 0.699367088607595,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 23,
+              "value": 0.8316455696202532,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 24,
+              "value": 0.8075949367088607,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 25,
+              "value": 0.7955696202531646,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 26,
+              "value": 0.7414556962025317,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 27,
+              "value": 0.8677215189873417,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 28,
+              "value": 0.7955696202531646,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 29,
+              "value": 0.6693037974683544,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 30,
+              "value": 0.6272151898734177,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 31,
+              "value": 0.5310126582278482,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 32,
+              "value": 0.6212025316455697,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 33,
+              "value": 0.6031645569620253,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 34,
+              "value": 0.585126582278481,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 35,
+              "value": 0.3867088607594936,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 36,
+              "value": 0.6873417721518987,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 37,
+              "value": 0.699367088607595,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 38,
+              "value": 0.6512658227848102,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 39,
+              "value": 0.699367088607595,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 40,
+              "value": 0.819620253164557,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 41,
+              "value": 0.7294303797468354,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 42,
+              "value": 0.7294303797468354,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 43,
+              "value": 0.6693037974683544,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 44,
+              "value": 0.7895569620253164,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 45,
+              "value": 0.7234177215189873,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 46,
+              "value": 0.5550632911392406,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 47,
+              "value": 0.7113924050632912,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 48,
+              "value": 0.6813291139240507,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 49,
+              "value": 0.6151898734177216,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 50,
+              "value": 0.46487341772151897,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 51,
+              "value": 0.6392405063291139,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 52,
+              "value": 0.7534810126582279,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 53,
+              "value": 0.7955696202531646,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 54,
+              "value": 0.6632911392405063,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 55,
+              "value": 0.5610759493670886,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 56,
+              "value": 0.585126582278481,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 57,
+              "value": 0.6212025316455697,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 58,
+              "value": 0.7534810126582279,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 59,
+              "value": 0.8075949367088607,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 60,
+              "value": 0.7835443037974683,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 61,
+              "value": 0.6933544303797469,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 62,
+              "value": 0.6813291139240507,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 63,
+              "value": 0.7474683544303797,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 64,
+              "value": 0.6813291139240507,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 65,
+              "value": 0.5971518987341773,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 66,
+              "value": 0.6392405063291139,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 67,
+              "value": 0.7775316455696202,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 68,
+              "value": 0.6572784810126582,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 69,
+              "value": 0.585126582278481,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 70,
+              "value": 0.5189873417721519,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 71,
+              "value": 0.7474683544303797,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 72,
+              "value": 0.8136075949367089,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 73,
+              "value": 0.6332278481012659,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 74,
+              "value": 0.5310126582278482,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 75,
+              "value": 0.8496835443037974,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 76,
+              "value": 0.765506329113924,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 77,
+              "value": 0.5670886075949367,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 78,
+              "value": 0.6091772151898734,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 79,
+              "value": 0.7955696202531646,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 80,
+              "value": 0.7955696202531646,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 81,
+              "value": 0.6572784810126582,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 82,
+              "value": 0.48892405063291133,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 83,
+              "value": 0.7113924050632912,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 84,
+              "value": 0.7775316455696202,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 85,
+              "value": 0.7234177215189873,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 86,
+              "value": 0.5610759493670886,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 87,
+              "value": 0.5610759493670886,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 88,
+              "value": 0.765506329113924,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 89,
+              "value": 0.9098101265822784,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 90,
+              "value": 0.7835443037974683,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 91,
+              "value": 0.7234177215189873,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 92,
+              "value": 0.7113924050632912,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 93,
+              "value": 0.6512658227848102,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 94,
+              "value": 0.699367088607595,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 95,
+              "value": 0.6091772151898734,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 96,
+              "value": 0.6693037974683544,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 97,
+              "value": 0.6813291139240507,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 98,
+              "value": 0.7534810126582279,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 99,
+              "value": 0.759493670886076,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 100,
+              "value": 0.7354430379746836,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            }
+          ],
+          "anchor": "MODULE_BOTTOM_LEFT"
+        },
+        {
+          "type": "FORMULA",
+          "formula": "$if(mi(state)\u003dPLAYING\u0026tf(mi(pos),ss)\u003e\u003d30\u0026tf(mi(pos),ss)\u003c40,f,r)$",
+          "action": "ADVANCED",
+          "ease": "STRAIGHT",
+          "duration": 100.0,
+          "animator": [
+            {
+              "position": 1,
+              "value": 0.7835443037974683,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 2,
+              "value": 0.7234177215189873,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 3,
+              "value": 0.6873417721518987,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 4,
+              "value": 0.6693037974683544,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 5,
+              "value": 0.6813291139240507,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 6,
+              "value": 0.7534810126582279,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 7,
+              "value": 0.6572784810126582,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 8,
+              "value": 0.6632911392405063,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 9,
+              "value": 0.6332278481012659,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 10,
+              "value": 0.7174050632911392,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 11,
+              "value": 0.7775316455696202,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 12,
+              "value": 0.6272151898734177,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 13,
+              "value": 0.6332278481012659,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 14,
+              "value": 0.8075949367088607,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 15,
+              "value": 0.7234177215189873,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 16,
+              "value": 0.6151898734177216,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 17,
+              "value": 0.5009493670886076,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 18,
+              "value": 0.759493670886076,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 19,
+              "value": 0.7835443037974683,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 20,
+              "value": 0.7113924050632912,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 21,
+              "value": 0.6151898734177216,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 22,
+              "value": 0.705379746835443,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 23,
+              "value": 0.7835443037974683,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 24,
+              "value": 0.6693037974683544,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 25,
+              "value": 0.6873417721518987,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 26,
+              "value": 0.5490506329113923,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 27,
+              "value": 0.6212025316455697,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 28,
+              "value": 0.5310126582278482,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 29,
+              "value": 0.6572784810126582,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 30,
+              "value": 0.6151898734177216,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 31,
+              "value": 0.7534810126582279,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 32,
+              "value": 0.7534810126582279,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 33,
+              "value": 0.645253164556962,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 34,
+              "value": 0.6392405063291139,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 35,
+              "value": 0.6813291139240507,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 36,
+              "value": 0.7835443037974683,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 37,
+              "value": 0.819620253164557,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 38,
+              "value": 0.6873417721518987,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 39,
+              "value": 0.645253164556962,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 40,
+              "value": 0.759493670886076,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 41,
+              "value": 0.7955696202531646,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 42,
+              "value": 0.765506329113924,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 43,
+              "value": 0.7534810126582279,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 44,
+              "value": 0.6151898734177216,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 45,
+              "value": 0.5791139240506329,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 46,
+              "value": 0.7414556962025317,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 47,
+              "value": 0.7174050632911392,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 48,
+              "value": 0.705379746835443,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 49,
+              "value": 0.819620253164557,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 50,
+              "value": 0.7234177215189873,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 51,
+              "value": 0.6332278481012659,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 52,
+              "value": 0.5069620253164557,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 53,
+              "value": 0.48892405063291133,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 54,
+              "value": 0.87373417721519,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 55,
+              "value": 0.8316455696202532,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 56,
+              "value": 0.7414556962025317,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 57,
+              "value": 0.5550632911392406,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 58,
+              "value": 0.6813291139240507,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 59,
+              "value": 0.6753164556962026,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 60,
+              "value": 0.5791139240506329,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 61,
+              "value": 0.6332278481012659,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 62,
+              "value": 0.6212025316455697,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 63,
+              "value": 0.5911392405063292,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 64,
+              "value": 0.5670886075949367,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 65,
+              "value": 0.5129746835443038,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 66,
+              "value": 0.6873417721518987,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 67,
+              "value": 0.7955696202531646,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 68,
+              "value": 0.6632911392405063,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 69,
+              "value": 0.5490506329113923,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 70,
+              "value": 0.6332278481012659,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 71,
+              "value": 0.6873417721518987,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 72,
+              "value": 0.705379746835443,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 73,
+              "value": 0.7354430379746836,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 74,
+              "value": 0.6572784810126582,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 75,
+              "value": 0.6753164556962026,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 76,
+              "value": 0.8136075949367089,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 77,
+              "value": 0.6512658227848102,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 78,
+              "value": 0.5490506329113923,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 79,
+              "value": 0.819620253164557,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 80,
+              "value": 1.0,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 81,
+              "value": 0.939873417721519,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 82,
+              "value": 0.765506329113924,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 83,
+              "value": 0.7234177215189873,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 84,
+              "value": 0.7174050632911392,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 85,
+              "value": 0.6933544303797469,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 86,
+              "value": 0.5670886075949367,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 87,
+              "value": 0.6753164556962026,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 88,
+              "value": 0.6332278481012659,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 89,
+              "value": 0.5670886075949367,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 90,
+              "value": 0.6392405063291139,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 91,
+              "value": 0.4708860759493671,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 92,
+              "value": 0.7234177215189873,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 93,
+              "value": 0.7174050632911392,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 94,
+              "value": 0.6091772151898734,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 95,
+              "value": 0.5791139240506329,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 96,
+              "value": 0.8496835443037974,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 97,
+              "value": 0.8256329113924051,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 98,
+              "value": 0.9639240506329114,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 99,
+              "value": 0.8015822784810127,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 100,
+              "value": 0.6933544303797469,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            }
+          ],
+          "anchor": "MODULE_BOTTOM_LEFT"
+        },
+        {
+          "type": "FORMULA",
+          "formula": "$if(mi(state)\u003dPLAYING\u0026tf(mi(pos),ss)\u003e\u003d40\u0026tf(mi(pos),ss)\u003c50,f,r)$",
+          "action": "ADVANCED",
+          "ease": "STRAIGHT",
+          "duration": 100.0,
+          "animator": [
+            {
+              "position": 1,
+              "value": 0.6693037974683544,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 2,
+              "value": 0.7174050632911392,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 3,
+              "value": 0.6753164556962026,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 4,
+              "value": 0.645253164556962,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 5,
+              "value": 0.5310126582278482,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 6,
+              "value": 0.5370253164556963,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 7,
+              "value": 0.6272151898734177,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 8,
+              "value": 0.5490506329113923,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 9,
+              "value": 0.699367088607595,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 10,
+              "value": 0.7715189873417722,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 11,
+              "value": 0.8075949367088607,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 12,
+              "value": 0.7113924050632912,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 13,
+              "value": 0.5971518987341773,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 14,
+              "value": 0.645253164556962,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 15,
+              "value": 0.6512658227848102,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 16,
+              "value": 0.5550632911392406,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 17,
+              "value": 0.6572784810126582,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 18,
+              "value": 0.7534810126582279,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 19,
+              "value": 0.7775316455696202,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 20,
+              "value": 0.7414556962025317,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 21,
+              "value": 0.705379746835443,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 22,
+              "value": 0.759493670886076,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 23,
+              "value": 0.7474683544303797,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 24,
+              "value": 0.6332278481012659,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 25,
+              "value": 0.6031645569620253,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 26,
+              "value": 0.4167721518987341,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 27,
+              "value": 0.87373417721519,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 28,
+              "value": 0.819620253164557,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 29,
+              "value": 0.6753164556962026,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 30,
+              "value": 0.5610759493670886,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 31,
+              "value": 0.7234177215189873,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 32,
+              "value": 0.7534810126582279,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 33,
+              "value": 0.7174050632911392,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 34,
+              "value": 0.5791139240506329,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 35,
+              "value": 0.5911392405063292,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 36,
+              "value": 0.8256329113924051,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 37,
+              "value": 0.7294303797468354,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 38,
+              "value": 0.645253164556962,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 39,
+              "value": 0.5189873417721519,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 40,
+              "value": 0.759493670886076,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 41,
+              "value": 0.7354430379746836,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 42,
+              "value": 0.7534810126582279,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 43,
+              "value": 0.6572784810126582,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 44,
+              "value": 0.645253164556962,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 45,
+              "value": 0.7474683544303797,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 46,
+              "value": 0.699367088607595,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 47,
+              "value": 0.6512658227848102,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 48,
+              "value": 0.6572784810126582,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 49,
+              "value": 0.6873417721518987,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 50,
+              "value": 0.6212025316455697,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 51,
+              "value": 0.6572784810126582,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 52,
+              "value": 0.42879746835443033,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 53,
+              "value": 0.5731012658227848,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 54,
+              "value": 0.705379746835443,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 55,
+              "value": 0.705379746835443,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 56,
+              "value": 0.5911392405063292,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 57,
+              "value": 0.7113924050632912,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 58,
+              "value": 0.6392405063291139,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 59,
+              "value": 0.645253164556962,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 60,
+              "value": 0.5490506329113923,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 61,
+              "value": 0.5310126582278482,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 62,
+              "value": 0.759493670886076,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 63,
+              "value": 0.7474683544303797,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 64,
+              "value": 0.6392405063291139,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 65,
+              "value": 0.5550632911392406,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 66,
+              "value": 0.6512658227848102,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 67,
+              "value": 0.7474683544303797,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 68,
+              "value": 0.7113924050632912,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 69,
+              "value": 0.6933544303797469,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 70,
+              "value": 0.7715189873417722,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 71,
+              "value": 0.8015822784810127,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 72,
+              "value": 0.7234177215189873,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 73,
+              "value": 0.6572784810126582,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 74,
+              "value": 0.645253164556962,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 75,
+              "value": 0.7775316455696202,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 76,
+              "value": 0.8376582278481013,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 77,
+              "value": 0.705379746835443,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 78,
+              "value": 0.6693037974683544,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 79,
+              "value": 0.7414556962025317,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 80,
+              "value": 0.8617088607594937,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 81,
+              "value": 0.8015822784810127,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 82,
+              "value": 0.6753164556962026,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 83,
+              "value": 0.525,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 84,
+              "value": 0.585126582278481,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 85,
+              "value": 0.5610759493670886,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 86,
+              "value": 0.5490506329113923,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 87,
+              "value": 0.6212025316455697,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 88,
+              "value": 0.7474683544303797,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 89,
+              "value": 0.7174050632911392,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 90,
+              "value": 0.6572784810126582,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 91,
+              "value": 0.6091772151898734,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 92,
+              "value": 0.5009493670886076,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 93,
+              "value": 0.5490506329113923,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 94,
+              "value": 0.5911392405063292,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 95,
+              "value": 0.5129746835443038,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 96,
+              "value": 0.5731012658227848,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 97,
+              "value": 0.819620253164557,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 98,
+              "value": 0.7895569620253164,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 99,
+              "value": 0.7474683544303797,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 100,
+              "value": 0.6933544303797469,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            }
+          ],
+          "anchor": "MODULE_BOTTOM_LEFT"
+        },
+        {
+          "type": "FORMULA",
+          "formula": "$if(mi(state)\u003dPLAYING\u0026tf(mi(pos),ss)\u003e\u003d50\u0026tf(mi(pos),ss)\u003c60,f,r)$",
+          "action": "ADVANCED",
+          "ease": "STRAIGHT",
+          "duration": 100.0,
+          "animator": [
+            {
+              "position": 1,
+              "value": 0.6392405063291139,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 2,
+              "value": 0.7414556962025317,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 3,
+              "value": 0.7234177215189873,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 4,
+              "value": 0.6091772151898734,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 5,
+              "value": 0.585126582278481,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 6,
+              "value": 0.5731012658227848,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 7,
+              "value": 0.45886075949367083,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 8,
+              "value": 0.38069620253164554,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 9,
+              "value": 0.18829113924050633,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 10,
+              "value": 0.1822784810126582,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 11,
+              "value": 0.0680379746835443,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 12,
+              "value": 0.0981012658227848,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 13,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 14,
+              "value": 0.1642405063291139,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 15,
+              "value": 0.0981012658227848,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 16,
+              "value": 0.07405063291139241,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 17,
+              "value": 0.11613924050632911,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 18,
+              "value": 0.4708860759493671,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 19,
+              "value": 0.5610759493670886,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 20,
+              "value": 0.585126582278481,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 21,
+              "value": 0.5490506329113923,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 22,
+              "value": 0.5731012658227848,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 23,
+              "value": 0.45886075949367083,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 24,
+              "value": 0.39272151898734176,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 25,
+              "value": 0.45284810126582276,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 26,
+              "value": 0.32056962025316454,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 27,
+              "value": 0.17626582278481012,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 28,
+              "value": 0.3265822784810126,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 29,
+              "value": 0.21234177215189876,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 30,
+              "value": 0.08006329113924052,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 31,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 32,
+              "value": 0.0981012658227848,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 33,
+              "value": 0.0560126582278481,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 34,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 35,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 36,
+              "value": 0.0560126582278481,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 37,
+              "value": 0.48892405063291133,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 38,
+              "value": 0.4829113924050632,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 39,
+              "value": 0.5069620253164557,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 40,
+              "value": 0.5550632911392406,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 41,
+              "value": 0.5971518987341773,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 42,
+              "value": 0.46487341772151897,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 43,
+              "value": 0.29050632911392404,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 44,
+              "value": 0.3566455696202531,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 45,
+              "value": 0.3265822784810126,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 46,
+              "value": 0.24240506329113926,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 47,
+              "value": 0.2243670886075949,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 48,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 49,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 50,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 51,
+              "value": 0.20632911392405062,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 52,
+              "value": 0.12816455696202533,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 53,
+              "value": 0.11012658227848102,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 54,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 55,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 56,
+              "value": 0.18829113924050633,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 57,
+              "value": 0.18829113924050633,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 58,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 59,
+              "value": 0.1642405063291139,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 60,
+              "value": 0.11012658227848102,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 61,
+              "value": 0.0560126582278481,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 62,
+              "value": 0.17626582278481012,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 63,
+              "value": 0.06202531645569621,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 64,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 65,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 66,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 67,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 68,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 69,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 70,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 71,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 72,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 73,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 74,
+              "value": 0.17626582278481012,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 75,
+              "value": 0.08006329113924052,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 76,
+              "value": 0.14620253164556962,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 77,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 78,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 79,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 80,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 81,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 82,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 83,
+              "value": 0.0920886075949367,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 84,
+              "value": 0.0920886075949367,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 85,
+              "value": 0.1943037974683544,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 86,
+              "value": 0.0680379746835443,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 87,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 88,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 89,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 90,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 91,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 92,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 93,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 94,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 95,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 96,
+              "value": 0.05,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 97,
+              "value": 0.11012658227848102,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 98,
+              "value": 0.17626582278481012,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 99,
+              "value": 0.6031645569620253,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            },
+            {
+              "position": 100,
+              "value": 0.5670886075949367,
+              "property": "SCALE_Y",
+              "ease": "STRAIGHT"
+            }
+          ],
+          "anchor": "MODULE_BOTTOM_LEFT"
+        }
+      ]
+    }
+  ]
+}
+##KUSTOMCLIP##
